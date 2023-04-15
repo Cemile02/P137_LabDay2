@@ -1,0 +1,70 @@
+#region Verilen arrayda her herfin sayini tapmaq
+
+//char[] abc = { 'a', 'e', 'u', 'i', 'o' };
+//string word = "azerbaycan";
+
+//for(int i = 0; i <abc.Length; i++)//a e
+//{
+//    int count = 0;
+//    for(int j = 0; j < word.Length; j++)
+//    {
+//        if (abc[i] == word[j])//
+//        {
+//            count++;
+//        }
+//    }
+//    Console.WriteLine(abc[i]+": "+count);
+//}
+
+#endregion
+
+#region Ededin faktoriali
+//int num=int.Parse(Console.ReadLine());
+//int fakt = 1;
+
+//for(int i=1; i<=num; i++)
+//{
+
+//    fakt*=i;
+
+//}
+//Console.WriteLine(fakt);
+
+#endregion
+
+#region Reverse Array
+//for (int i = 0; i < length; i++) { }
+#endregion
+
+#region arrayi tersine cevirmek
+//int[] arr = { 1, 2, 3, 4, 5 };
+////1ci yol
+////for(int i = arr.Length-1 ; i >= 0; i--)
+////{
+////    Console.WriteLine(arr[i]);
+////}
+
+////2ci yol
+//for (int i = 1; i <=arr.Length; i++)
+//{
+//    Console.WriteLine(arr[arr.Length-i]);
+//}
+#endregion
+
+#region verilen ededden kicik en sonuncu fibonacci ededin tapilmasi
+
+//int number = int.Parse(Console.ReadLine());
+
+//int n1 = 1;
+//int sum = 1;
+
+//while(sum <= number)
+//{
+//    int temp = n1;
+//    n1 = sum;
+//    sum = sum + temp;
+//}
+
+//Console.WriteLine(n1);
+
+#endregion
